@@ -1,24 +1,6 @@
-<!doctype html>
-<html >
+<?php ?>
 
-<head>
-    <title>dashboard</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../dist/output.css" rel="stylesheet">
-</head>
 
-<body class="overflow-x-hidden dark:bg-gray-900 ">
-    <header class="flex py-2 justify-end h-12 px-8  gap-1 dark:bg-gray-800 dark:text-white ">
-        <span id="dar_mode_btn">
-        <img class="h-8 mx-5  dark:rotate-180  dark:bg-slate-300 dark:rounded-full " src="../images/dar_mode_icon.png" alt="icon">
-    </span>
-        <img class="h-auto  rounded-full" src="../images/845-1697015855.jpg" alt="admin">
-        <span class="text-lg self-center ">mohamed tergui</span>
-    </header>
-    <div class="flex flex-row justify-start  dark:bg-gray-900 ">
-
-        <!-- side bar -->
     <div class="lg:w-72 sm:h-full h-screen ">
 
         <span id="btn_sidebar" class=" cursor-pointer rounded-full shadow-md fixed lg:hidden top-3/4 -left-2">
@@ -80,39 +62,12 @@
                             </svg>
                         </span>
                     </li>
-                    <li>
-                        <a href="dashboard.html"
+                    <!-- <li>
+                        <a href="UsersManagement.php
+                    "
                             class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
-                            <span class="flex-1 ml-3 whitespace-nowrap">statistique</span>
-                            <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                viewBox="0 0 18 18">
-                                <path
-                                    d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="inbox.html"
-                            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-
-                            <span class="flex-1 ml-3 whitespace-nowrap">Inbox</span>
-                            <span
-                                class="inline-flex items-center justify-center w-3 h-3 p-3 ml-3 text-sm font-medium text-custom-green bg-red-500 rounded-full mx-3">3</span>
-                            <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path
-                                    d="m17.418 3.623-.018-.008a6.713 6.713 0 0 0-2.4-.569V2h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2H9.89A6.977 6.977 0 0 1 12 8v5h-2V8A5 5 0 1 0 0 8v6a1 1 0 0 0 1 1h8v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-4h6a1 1 0 0 0 1-1V8a5 5 0 0 0-2.582-4.377ZM6 12H4a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="UsersManagement.html"
-                            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-
-                            <span class="flex-1 ml-3 whitespace-nowrap">Users Management</span>
+                            <span class="flex-1 ml-3 whitespace-nowrap">Freelancers</span>
                             <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                                 aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                 viewBox="0 0 20 18">
@@ -120,11 +75,12 @@
                                     d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
                             </svg>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="CategoryManagement.html"
+                        <a href="CategoryManagement.php
+                    "
                             class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                            <span class="flex-1 ml-3 whitespace-nowrap">Category Management</span>
+                            <span class="flex-1 ml-3 whitespace-nowrap">Categories</span>
                             <svg class="flex-shrink-0 w-5 h-5 text-gray-500  transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                                 aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                 viewBox="0 0 18 20">
@@ -134,10 +90,55 @@
 
                         </a>
                     </li>
+                    <li>
+                        <a href="freelancer.php
+                    "
+                            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                            <span class="flex-1 ml-3 whitespace-nowrap">Freelancers</span>
+                            <svg class="flex-shrink-0 w-5 h-5 text-gray-500  transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                viewBox="0 0 18 20">
+                                <path
+                                    d="M17 5.923A1 1 0 0 0 16 5h-3V4a4 4 0 1 0-8 0v1H2a1 1 0 0 0-1 .923L.086 17.846A2 2 0 0 0 2.08 20h13.84a2 2 0 0 0 1.994-2.153L17 5.923ZM7 9a1 1 0 0 1-2 0V7h2v2Zm0-5a2 2 0 1 1 4 0v1H7V4Zm6 5a1 1 0 1 1-2 0V7h2v2Z" />
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="dashboard.php
+                    "
+                            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+
+                            <span class="flex-1 ml-3 whitespace-nowrap">Statistiques</span>
+                            <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                viewBox="0 0 18 18">
+                                <path
+                                    d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="inbox.php
+                    "
+                            class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+
+                            <span class="flex-1 ml-3 whitespace-nowrap">Projets</span>
+                            <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                viewBox="0 0 20 20">
+                                <path
+                                    d="m17.418 3.623-.018-.008a6.713 6.713 0 0 0-2.4-.569V2h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2H9.89A6.977 6.977 0 0 1 12 8v5h-2V8A5 5 0 1 0 0 8v6a1 1 0 0 0 1 1h8v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-4h6a1 1 0 0 0 1-1V8a5 5 0 0 0-2.582-4.377ZM6 12H4a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    
 
                     <li class="bg-white  rounded-lg  ">
 
-                        <a href="sign_in.html"
+                        <a href="sign_in.php
+                    "
                             class="flex items-center p-2 text-gray-900 rounded-lg dark:bg-custom-green hover:bg-gray-100 dark:hover:bg-gray-700 group">
                             <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                                 aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -155,68 +156,7 @@
 
 
         </div>
+        </div>
+    
 
 
-
-
-        <!-- end side bar -->
-
-
-    </div>
-    <!-- end side bar -->
-
-        <section class="flex flex-col py-8 flex-grow dark:bg-gray-900 dark:text-white">
-            <h1 class="text-3xl text-center font-bold">Category Management</h1>
-            <div class="flex p-4 gap-6 justify-center flex-col">
-                <div class=" shadow-sm rounded-lg gap-2 bg-slate-500 p-5  flex flex-col items-center ">
-                    <h2 class="text-xl font-semibold text-white">add category</h2>
-                    <div class="flex   gap-4">
-                        <form >
-                        <input id="value_add_cetegory" class=" rounded-md p-1  border-2 dark:text-black" type="text" placeholder="name of category">
-                        <input id="btn_add_cetegory" type="submit" value="ADD"
-                            class="bg-gray-50 p-2 rounded-md cursor-pointer dark:text-black">
-                        </form>
-                    </div>
-                </div>
-                <div id="parent_of_categories" class="flex flex-col border">
-                    <ul class="flex  text-center text-white items-center bg-slate-500 dark:bg-gray-800 dark:text-white">
-                        <li class="w-2/3  text-xs md:text-lg p-4 ">NAME OF CATEGORY</li>
-                        <li class="w-1/3 text-xs md:text-lg p-4 ">DATE</li>
-                        <li class="w-1/3 text-xs md:text-lg p-4 ">
-                            &nbsp;
-                        </li>
-                    </ul>
-                    
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <dialog id="edit_caregory" class=" w-auto h-auto  dark:bg-gray-800 dark:text-white" >
-        <div id="clse_btn_category_esdit" class="flex justify-end p-6">
-            <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 3L8.75 10.5M14.5 18L8.75 10.5M8.75 10.5L14.5 3L3 18" stroke="#FF0909" stroke-width="7" />
-        </svg>
-    </div>
-        <div class="flex flex-col justify-center items-center w-full h-2/3">
-           
-        <div class="flex flex-col justify-items-center content-between gap-5 w-2/3 h-2/3 ">
-           <h1 class="text-center text-lg lg:text-2xl text-blue-600">EDIT CATEGORY</h1>
-           <form class="flex flex-col gap-2 w-5/6 sm:w-2/3 m-auto" >
-            <input type="text" id="input_submit_edit_cztegory" placeholder="enter new name" class="border h-12 dark:text-black px-1 lg:text-lg">
-            <button type="submit" id="btn_submit_edit_cztegory" class="bg-blue-600 border px-2 w-1/2 m-auto py-1">submit</button>
-        </form>
-    </div>
-    </div>
-    </dialog>
-
-    <script src="../javascript/jquery.js"></script>
-    <script src="../javascript/dashboard.js"></script>
-    <script src="../javascript/script.js"></script>
-
-    <script src="../javascript/dashCategories.js"></script>
-
-</body>
-
-</html>

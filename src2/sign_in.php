@@ -33,19 +33,19 @@
       class="z-50 lg:items-center self-center flex flex-col gap-32 lg:flex-row  dark:bg-slate-800 lg:p-0  px-2 pb-8 w-3/6 sm:w-1/3 lg:static absolute lg:bg-transparent bg-gray-50 top-16 right-0  lg:w-9/12  lg:justify-end">
       <ul class="flex flex-col lg:flex-row lg:gap-8 gap-5 self-center items-center text-1xl font-bold text-gray-700 lg:w-auto w-5/6">
         <li class="text-gray-600 dark:text-gray-300 lg:pt-0 pt-4 lg:border-b-2 border-gray-600 dark:border-gray-400">
-          <a href="./index.html">Home</a>
+          <a href="./index.php">Home</a>
         </li>
 
         <li class="text-gray-600 dark:text-gray-300 border-t-2 lg:border-0 lg:pt-0 pt-4">
-          <a href="./about.html">About Us</a>
+          <a href="./about.php">About Us</a>
         </li>
 
         <li class="text-gray-600 dark:text-gray-300 border-t-2 lg:border-0 lg:pt-0 pt-4">
-          <a href="./contact.html">Contact Us</a>
+          <a href="./contact.php">Contact Us</a>
         </li>
 
         <li class="text-gray-600 dark:text-gray-300 border-y-2 lg:border-0 lg:pt-0 py-4 lg:pb-0">
-          <a href="./search.html" class="flex">
+          <a href="./search.php" class="flex">
             <svg class="pt-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M20 20L15.95 15.95M15.95 15.95C16.6 15.2999 17.1157 14.5282 17.4675 13.6789C17.8193 12.8296 18.0004 11.9193 18.0004 11C18.0004 10.0807 17.8193 9.17039 17.4675 8.32107C17.1157 7.47175 16.6 6.70003 15.95 6.04999C15.3 5.39995 14.5282 4.8843 13.6789 4.5325C12.8296 4.1807 11.9193 3.99963 11 3.99963C10.0807 3.99963 9.17041 4.1807 8.32109 4.5325C7.47176 4.8843 6.70005 5.39995 6.05001 6.04999C4.73718 7.36281 3.99965 9.14338 3.99965 11C3.99965 12.8566 4.73718 14.6372 6.05001 15.95C7.36283 17.2628 9.1434 18.0003 11 18.0003C12.8566 18.0003 14.6372 17.2628 15.95 15.95Z"
@@ -56,13 +56,13 @@
         </li>
       </ul>
       <div class=" lg:w-auto  w-3/4 flex flex-col lg:flex-row  justify-center gap-4      self-center  text-1xl  ">
-        <a href="./sign_in.html"
+        <a href="./sign_in.php"
           class="text-custom-green  text-center border-solid border-2 border-custom-green rounded-md  px-3">
           <span>
             Log in
           </span>
         </a>
-        <a href="./sign_in.html" class="bg-custom-green rounded-md px-3 text-center text-white font-semibold">
+        <a href="./sign_in.php" class="bg-custom-green rounded-md px-3 text-center text-white font-semibold">
           <span>
             Register
           </span>
